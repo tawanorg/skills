@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "tawanorg",
+  "organization": "tawanorg",
+  "date": "February 2025",
+  "repository": "https://github.com/tawanorg/skills",
+  "abstract": "Production-quality coding principles for AI agents. A comprehensive blueprint covering core principles (Read Before Write, Minimal Change, Match Codebase) and enterprise patterns (SOLID, Observability, API Design, Database, Resilience, Security, Testing, Code Review, Refactoring).",
+  "references": [
+    "https://12factor.net",
+    "https://owasp.org/www-project-top-ten",
+    "https://martinfowler.com/articles/practical-test-pyramid.html",
+    "https://docs.microsoft.com/en-us/azure/architecture/patterns"
+  ]
+}

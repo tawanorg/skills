@@ -9,17 +9,17 @@ A collection of skills for AI coding agents. Skills are packaged instructions an
 ## Repository Structure
 
 ```
-skills/
+tawanorg/skills/
 ├── README.md                    # Main documentation
 ├── AGENTS.md                    # This file (AI agent guidance)
 ├── CLAUDE.md                    # Symlink to AGENTS.md
 ├── LICENSE                      # MIT License
-└── skills/
-    └── {skill-name}/            # Individual skill directories
-        ├── SKILL.md             # Required: skill definition
-        ├── metadata.json        # Optional: version, author info
-        ├── README.md            # Optional: human documentation
-        └── references/          # Optional: supporting docs
+└── {skill-name}/                # Individual skill directories at root
+    ├── SKILL.md                 # Required: skill definition
+    ├── metadata.json            # Optional: version, author info
+    ├── README.md                # Optional: human documentation
+    ├── rules/                   # Optional: atomic rules
+    └── references/              # Optional: supporting docs
 ```
 
 ## Creating a New Skill
@@ -27,15 +27,16 @@ skills/
 ### Directory Structure
 
 ```
-skills/
-  {skill-name}/           # kebab-case directory name
-    SKILL.md              # Required: skill definition with frontmatter
-    metadata.json         # Optional: version, author, references
-    README.md             # Optional: human-readable documentation
-    references/           # Optional: detailed reference materials
-      topic.md
-    scripts/              # Optional: executable scripts
-      script.sh
+{skill-name}/             # kebab-case directory name at repo root
+  SKILL.md                # Required: skill definition with frontmatter
+  metadata.json           # Optional: version, author, references
+  README.md               # Optional: human-readable documentation
+  rules/                  # Optional: atomic, enforceable rules
+    {category}-{name}.md
+  references/             # Optional: detailed reference materials
+    topic.md
+  scripts/                # Optional: executable scripts
+    script.sh
 ```
 
 ### Naming Conventions

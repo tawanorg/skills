@@ -21,7 +21,7 @@ These skills encode hard-won engineering knowledge into a format AI agents under
 20+ atomic rules and 10 comprehensive reference guides covering everything from SOLID architecture to resilience patterns.
 
 ```bash
-npx skills add @tawanorg/skills/ai-coding-principles
+npx skills add tawanorg/skills/ai-coding-principles
 ```
 
 **What's inside:**
@@ -51,20 +51,20 @@ npx skills add @tawanorg/skills/ai-coding-principles
 ### Claude Code
 
 ```bash
-npx skills add @tawanorg/skills
+npx skills add tawanorg/skills
 ```
 
 Or install a specific skill:
 
 ```bash
-npx skills add @tawanorg/skills/ai-coding-principles
+npx skills add tawanorg/skills/ai-coding-principles
 ```
 
 Or manually copy to your skills directory:
 
 ```bash
 git clone https://github.com/tawanorg/skills.git
-cp -r skills/skills/ai-coding-principles ~/.claude/skills/
+cp -r skills/ai-coding-principles ~/.claude/skills/
 ```
 
 ### Claude.ai
@@ -85,22 +85,21 @@ This keeps context usage minimal while providing deep knowledge when needed.
 ## Repository Structure
 
 ```
-skills/
+tawanorg/skills/
 ├── README.md                    # This file
 ├── AGENTS.md                    # AI agent guidance for this repo
 ├── CLAUDE.md                    # Symlink to AGENTS.md
 ├── LICENSE                      # MIT
-└── skills/
-    └── ai-coding-principles/
-        ├── SKILL.md             # Main skill (agent reads this first)
-        ├── metadata.json        # Version, author, references
-        ├── README.md            # Human documentation
-        ├── rules/               # Atomic, enforceable rules
-        │   ├── _sections.md     # Category definitions
-        │   ├── _template.md     # Template for new rules
-        │   └── *.md             # Individual rules
-        └── references/          # Comprehensive guides
-            └── *.md             # Topic guides
+└── ai-coding-principles/        # Skill directory
+    ├── SKILL.md                 # Main skill (agent reads this first)
+    ├── metadata.json            # Version, author, references
+    ├── README.md                # Human documentation
+    ├── rules/                   # Atomic, enforceable rules
+    │   ├── _sections.md         # Category definitions
+    │   ├── _template.md         # Template for new rules
+    │   └── *.md                 # Individual rules
+    └── references/              # Comprehensive guides
+        └── *.md                 # Topic guides
 ```
 
 ## Creating Your Own Skill
@@ -108,8 +107,8 @@ skills/
 ### Quick Start
 
 ```bash
-mkdir -p skills/your-skill-name/references
-touch skills/your-skill-name/SKILL.md
+mkdir -p your-skill-name/references
+touch your-skill-name/SKILL.md
 ```
 
 ### SKILL.md Template
@@ -157,7 +156,7 @@ Your guidance here...
 ## Contributing
 
 1. Fork this repository
-2. Create your skill in `skills/your-skill-name/`
+2. Create your skill in `your-skill-name/` at the root level
 3. Follow the structure and guidelines above
 4. Submit a pull request
 

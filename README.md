@@ -46,6 +46,70 @@ npx skills add tawanorg/skills/ai-coding-principles
 - Code review or quality checks
 - Questions about "best practices", "code quality", "production-ready"
 
+---
+
+### system-design-thinking
+
+**Thinking frameworks for architectural decisions.**
+
+Systematic approach to system design with trade-off analysis, decision heuristics, and battle-tested patterns from distributed systems.
+
+```bash
+npx skills add tawanorg/skills/system-design-thinking
+```
+
+**What's inside:**
+
+| Category | Content |
+|----------|---------|
+| Thinking Framework | Structured approach: Requirements → Constraints → Trade-offs → Decision |
+| Trade-off Analysis | CAP theorem, Latency vs Throughput, Consistency models |
+| Architecture Styles | Monolith, Modular Monolith, Microservices, Serverless, Event-Driven |
+| Scalability | Horizontal/Vertical scaling, Load balancing, Caching, Database sharding |
+| Integration | REST, gRPC, Message queues, Pub/Sub, Saga pattern, API Gateway |
+| Data Architecture | Storage selection, Replication, CQRS, Event Sourcing |
+| Decision Heuristics | 8 rules: Start with requirements, Prefer simple, Design for failure, etc. |
+| Documentation | ADR template and examples |
+
+**Triggers on:**
+- System design discussions
+- Architecture planning
+- Choosing between technologies
+- Scaling decisions
+- Questions about "how should we architect", "trade-offs", "CAP theorem"
+
+---
+
+### debugging-mastery
+
+**Systematic debugging methodology from top tech companies.**
+
+The scientific method applied to debugging. No more guessing—follow the same systematic approach that senior engineers at Facebook, Google, and Netflix use to find and fix bugs.
+
+```bash
+npx skills add tawanorg/skills/debugging-mastery
+```
+
+**What's inside:**
+
+| Category | Content |
+|----------|---------|
+| Debugging Loop | Observe → Hypothesize → Predict → Test → Conclude |
+| Core Rules | Reproduce first, binary search, read errors, verify fix (10 rules) |
+| Production Debugging | Safe investigation in production, mitigation, evidence gathering |
+| Performance Debugging | Profiling, flame graphs, bottleneck analysis |
+| Memory Leaks | Detection, heap snapshots, common leak patterns |
+| Distributed Tracing | Following requests across services, correlation IDs |
+| Common Bug Patterns | Off-by-one, null refs, race conditions, async bugs |
+| Debugging Tools | Debuggers, profilers, network tools, database analysis |
+
+**Triggers on:**
+- Investigating bugs
+- Troubleshooting production issues
+- Analyzing error logs
+- Performance problems
+- Questions about "why isn't this working", "how to debug", "root cause"
+
 ## Installation
 
 ### Claude Code
@@ -65,6 +129,8 @@ Or manually copy to your skills directory:
 ```bash
 git clone https://github.com/tawanorg/skills.git
 cp -r skills/ai-coding-principles ~/.claude/skills/
+cp -r skills/system-design-thinking ~/.claude/skills/
+cp -r skills/debugging-mastery ~/.claude/skills/
 ```
 
 ### Claude.ai
@@ -90,16 +156,24 @@ tawanorg/skills/
 ├── AGENTS.md                    # AI agent guidance for this repo
 ├── CLAUDE.md                    # Symlink to AGENTS.md
 ├── LICENSE                      # MIT
-└── ai-coding-principles/        # Skill directory
-    ├── SKILL.md                 # Main skill (agent reads this first)
-    ├── metadata.json            # Version, author, references
+├── ai-coding-principles/        # Production code quality
+│   ├── SKILL.md                 # Main skill file
+│   ├── metadata.json            # Version, author info
+│   ├── README.md                # Human documentation
+│   ├── rules/                   # 22 atomic rules
+│   └── references/              # 10 comprehensive guides
+├── system-design-thinking/      # Architecture decisions
+│   ├── SKILL.md                 # Main skill file
+│   ├── metadata.json            # Version, author info
+│   ├── README.md                # Human documentation
+│   ├── rules/                   # 8 decision heuristics
+│   └── references/              # 6 pattern guides
+└── debugging-mastery/           # Systematic debugging
+    ├── SKILL.md                 # Main skill file
+    ├── metadata.json            # Version, author info
     ├── README.md                # Human documentation
-    ├── rules/                   # Atomic, enforceable rules
-    │   ├── _sections.md         # Category definitions
-    │   ├── _template.md         # Template for new rules
-    │   └── *.md                 # Individual rules
-    └── references/              # Comprehensive guides
-        └── *.md                 # Topic guides
+    ├── rules/                   # 10 debugging rules
+    └── references/              # 6 debugging guides
 ```
 
 ## Creating Your Own Skill

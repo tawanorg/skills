@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "author": "tawanorg",
+  "organization": "tawanorg",
+  "date": "February 2025",
+  "repository": "https://github.com/tawanorg/skills",
+  "abstract": "Frameworks for architectural decision-making and system design. Covers problem decomposition, trade-off analysis, architecture patterns, scalability thinking, and operational considerations. Helps AI agents think before coding.",
+  "references": [
+    "https://martinfowler.com/architecture",
+    "https://12factor.net",
+    "https://microservices.io/patterns",
+    "https://docs.microsoft.com/en-us/azure/architecture/patterns",
+    "https://aws.amazon.com/architecture/well-architected"
+  ]
+}

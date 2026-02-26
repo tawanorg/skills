@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "author": "tawanorg",
+  "organization": "tawanorg",
+  "date": "February 2025",
+  "repository": "https://github.com/tawanorg/skills",
+  "abstract": "Systematic debugging methodology used by senior engineers at top tech companies. Covers the scientific method for debugging, binary search isolation, production debugging, performance profiling, memory leak detection, and distributed tracing.",
+  "keywords": [
+    "debugging",
+    "troubleshooting",
+    "root-cause-analysis",
+    "production-debugging",
+    "performance",
+    "memory-leaks",
+    "distributed-tracing",
+    "scientific-method"
+  ],
+  "structure": {
+    "rules": 10,
+    "references": 6
+  },
+  "rules": [
+    "reproduce-before-fix",
+    "binary-search-first",
+    "read-error-messages",
+    "check-recent-changes",
+    "one-change-at-a-time",
+    "verify-the-fix",
+    "write-regression-test",
+    "document-root-cause",
+    "never-debug-blind",
+    "question-assumptions"
+  ],
+  "references": [
+    "production-debugging",
+    "performance-debugging",
+    "memory-leak-detection",
+    "distributed-tracing",
+    "common-bug-patterns",
+    "debugging-tools"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "tawanorg",
+  "organization": "tawanorg",
+  "date": "April 2025",
+  "repository": "https://github.com/tawanorg/skills",
+  "abstract": "Deep intent discovery through structured interrogation. A 40-question matrix across 8 phases that exposes the gap between what you think you want and what you actually need — before writing a single line of code.",
+  "references": [
+    "https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md"
+  ]
+}

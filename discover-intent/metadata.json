@@ -1,13 +1,45 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "tawanorg",
   "organization": "tawanorg",
   "date": "April 2025",
   "repository": "https://github.com/tawanorg/skills",
-  "abstract": "Enterprise-grade intent discovery framework. 75+ deep questions across 12 phases with confidence scoring, evidence triangulation, JTBD analysis, assumption risk matrices, contradiction detection, and 8 structured output artifacts. Exposes the gap between what you think you want and what you actually need.",
+  "abstract": "Enterprise-grade intent discovery framework. 11 modular sub-skills covering motivation, problem validation, assumption mining, JTBD analysis, scope surgery, business model, user research, technical reality, market positioning, failure modes, and synthesis. Each sub-skill works independently and produces a concrete artifact. Confidence scoring per question (0-100%), evidence grading A-F, contradiction detection, and adaptive routing by project type. Exposes the gap between what you think you want and what you actually need.",
+  "entryPoints": [
+    "pitch-new-project",
+    "stress-test-plan",
+    "quick-gut-check"
+  ],
+  "subSkills": [
+    "skills/01-motivation-audit.md",
+    "skills/02-problem-validation.md",
+    "skills/03-assumption-mining.md",
+    "skills/04-jobs-to-be-done.md",
+    "skills/05-scope-surgery.md",
+    "skills/06-business-model.md",
+    "skills/07-user-deep-dive.md",
+    "skills/08-technical-reality.md",
+    "skills/09-market-positioning.md",
+    "skills/10-failure-modes.md",
+    "skills/11-synthesis.md"
+  ],
+  "frameworks": [
+    "frameworks/confidence-scoring.md",
+    "frameworks/evidence-grading.md",
+    "frameworks/contradiction-detection.md",
+    "frameworks/adaptive-routing.md"
+  ],
+  "templates": [
+    "templates/assumption-register.md",
+    "templates/risk-matrix.md",
+    "templates/decision-log.md",
+    "templates/jtbd-canvas.md",
+    "templates/crystallized-spec.md"
+  ],
   "references": [
     "https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md",
     "https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27",
-    "https://www.strategyzer.com/library/the-value-proposition-canvas"
+    "https://www.strategyzer.com/library/the-value-proposition-canvas",
+    "https://www.intercom.com/blog/the-jobs-to-be-done-theory/"
   ]
 }

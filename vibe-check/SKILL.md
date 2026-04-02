@@ -1,17 +1,17 @@
 ---
-name: discover-intent
+name: vibe-check
 description: >
   Enterprise-grade intent discovery framework. Interviews you relentlessly about
   a project idea until reaching 95% confidence about what you actually want.
-  Use when starting a new project, validating an idea, or when you hear "grill me",
-  "stress test this", "what am I missing", "discover intent", or before writing any plan.
+  Use when starting a new project, validating an idea, or when you hear "vibe check",
+  "grill me", "stress test this", "what am I missing", or before writing any plan.
 license: MIT
 metadata:
   author: tawanorg
   version: '3.0.0'
 ---
 
-# Discover Intent
+# Vibe Check
 
 Exposes the gap between what you **think you want** and what you **actually need** — before a single line of code is written.
 

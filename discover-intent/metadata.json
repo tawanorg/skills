@@ -1,11 +1,13 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "tawanorg",
   "organization": "tawanorg",
   "date": "April 2025",
   "repository": "https://github.com/tawanorg/skills",
-  "abstract": "Deep intent discovery through structured interrogation. A 40-question matrix across 8 phases that exposes the gap between what you think you want and what you actually need — before writing a single line of code.",
+  "abstract": "Enterprise-grade intent discovery framework. 75+ deep questions across 12 phases with confidence scoring, evidence triangulation, JTBD analysis, assumption risk matrices, contradiction detection, and 8 structured output artifacts. Exposes the gap between what you think you want and what you actually need.",
   "references": [
-    "https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md"
+    "https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md",
+    "https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27",
+    "https://www.strategyzer.com/library/the-value-proposition-canvas"
   ]
 }

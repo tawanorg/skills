@@ -80,6 +80,42 @@ npx skills add tawanorg/skills/system-design-thinking
 
 ---
 
+### system-design-skills
+
+**A practical encyclopedia of system design building blocks.**
+
+The components companion to `system-design-thinking`: 12 deep-dive references and 16 rules covering APIs, databases, caching, distributed systems, architecture, DevOps, security, networking, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content original and vendor-neutral.
+
+```bash
+npx skills add tawanorg/skills/system-design-skills
+```
+
+**What's inside:**
+
+| Category | Content |
+|----------|---------|
+| APIs & Web | REST/GraphQL/gRPC/WebSocket, HTTP/1-2-3, status codes, gateway vs proxy vs LB, pagination, versioning |
+| Databases & Storage | SQL vs NoSQL, indexing, ACID/isolation, replication, sharding, consistency |
+| Caching & Performance | cache-aside/write-through, eviction, CDNs, stampede & penetration defense, latency budgets |
+| Scalability & Distributed | horizontal scaling, CAP/PACELC, quorums, consensus, sagas, queues, rate limiting, resilience |
+| Software Architecture | monolith→microservices, event-driven, CQRS, DDD, hexagonal/clean, 12-factor |
+| DevOps & CI/CD | pipelines, blue-green/canary, Docker/K8s, IaC/GitOps, SLI/SLO, DORA |
+| Security & Auth | sessions/cookies, JWT, OAuth2/OIDC, SSO, TLS/mTLS, RBAC, OWASP, secrets |
+| Networking & Fundamentals | OSI/TCP-IP, TCP vs UDP, DNS, IP/NAT, ports, processes/threads, deadlock |
+| Payments & Fintech | auth→capture→settlement, double-entry ledgers, idempotency, PCI |
+| AI & ML Systems | LLMs/transformers, agents, RAG, vector search, data pipelines |
+| Case Studies & Interview | distilled scaling lessons + an end-to-end interview framework with estimation |
+| Decision Heuristics | 16 rules: idempotent writes, stateless services, design for failure, authorize every request, etc. |
+
+**Triggers on:**
+- System design and architecture discussions
+- "How does X work?" fundamentals (REST vs GraphQL, SQL vs NoSQL, OAuth, DNS)
+- Choosing between technologies, storage, or protocols
+- Scaling, caching, and reliability decisions
+- System design interview preparation
+
+---
+
 ### debugging-mastery
 
 **Systematic debugging methodology from top tech companies.**
@@ -130,6 +166,7 @@ Or manually copy to your skills directory:
 git clone https://github.com/tawanorg/skills.git
 cp -r skills/ai-coding-principles ~/.claude/skills/
 cp -r skills/system-design-thinking ~/.claude/skills/
+cp -r skills/system-design-skills ~/.claude/skills/
 cp -r skills/debugging-mastery ~/.claude/skills/
 ```
 
@@ -168,6 +205,12 @@ tawanorg/skills/
 │   ├── README.md                # Human documentation
 │   ├── rules/                   # 8 decision heuristics
 │   └── references/              # 6 pattern guides
+├── system-design-skills/        # System design building blocks
+│   ├── SKILL.md                 # Main skill file
+│   ├── metadata.json            # Version, author info
+│   ├── README.md                # Human documentation
+│   ├── rules/                   # 16 decision heuristics
+│   └── references/              # 12 deep-dive guides
 └── debugging-mastery/           # Systematic debugging
     ├── SKILL.md                 # Main skill file
     ├── metadata.json            # Version, author info

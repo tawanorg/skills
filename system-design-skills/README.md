@@ -4,10 +4,10 @@ A practical encyclopedia of the building blocks behind modern systems. Helps AI
 agents (and humans) recall how each component works and which trade-offs apply
 when assembling a design.
 
-This is the **components** companion to the `system-design-thinking` skill (which
-covers the **decision-making frameworks**). Topic taxonomy is inspired by
-ByteByteGo's [System Design 101](https://github.com/ByteByteGoHq/system-design-101);
-all explanatory content here is original and vendor-neutral.
+A self-contained reference covering the components you design with and the
+heuristics for choosing between them. Topic taxonomy is inspired by ByteByteGo's
+[System Design 101](https://github.com/ByteByteGoHq/system-design-101); all
+explanatory content here is original and vendor-neutral.
 
 ## Structure
 
@@ -64,7 +64,8 @@ skill documents what lives at each layer and how to choose.
    for the framework, then pull in component references as needed.
 2. **Need depth on one topic?** Open the matching reference file.
 3. **Reviewing a design or PR?** Use the **rules** as a checklist.
-4. **Reasoning about architecture?** Pair with `system-design-thinking`.
+4. **Choosing between options?** Use the **rules** and the trade-off tables in
+   the architecture and scalability references.
 
 ### The 16 Rules
 

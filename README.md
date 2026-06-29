@@ -48,43 +48,11 @@ npx skills add tawanorg/skills/ai-coding-principles
 
 ---
 
-### system-design-thinking
-
-**Thinking frameworks for architectural decisions.**
-
-Systematic approach to system design with trade-off analysis, decision heuristics, and battle-tested patterns from distributed systems.
-
-```bash
-npx skills add tawanorg/skills/system-design-thinking
-```
-
-**What's inside:**
-
-| Category | Content |
-|----------|---------|
-| Thinking Framework | Structured approach: Requirements → Constraints → Trade-offs → Decision |
-| Trade-off Analysis | CAP theorem, Latency vs Throughput, Consistency models |
-| Architecture Styles | Monolith, Modular Monolith, Microservices, Serverless, Event-Driven |
-| Scalability | Horizontal/Vertical scaling, Load balancing, Caching, Database sharding |
-| Integration | REST, gRPC, Message queues, Pub/Sub, Saga pattern, API Gateway |
-| Data Architecture | Storage selection, Replication, CQRS, Event Sourcing |
-| Decision Heuristics | 8 rules: Start with requirements, Prefer simple, Design for failure, etc. |
-| Documentation | ADR template and examples |
-
-**Triggers on:**
-- System design discussions
-- Architecture planning
-- Choosing between technologies
-- Scaling decisions
-- Questions about "how should we architect", "trade-offs", "CAP theorem"
-
----
-
 ### system-design-skills
 
 **A practical encyclopedia of system design building blocks.**
 
-The components companion to `system-design-thinking`: 12 deep-dive references and 16 rules covering APIs, databases, caching, distributed systems, architecture, DevOps, security, networking, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content original and vendor-neutral.
+A self-contained system design reference: 12 deep-dive guides and 16 rules covering APIs, databases, caching, distributed systems, architecture, DevOps, security, networking, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content original and vendor-neutral.
 
 ```bash
 npx skills add tawanorg/skills/system-design-skills
@@ -165,7 +133,6 @@ Or manually copy to your skills directory:
 ```bash
 git clone https://github.com/tawanorg/skills.git
 cp -r skills/ai-coding-principles ~/.claude/skills/
-cp -r skills/system-design-thinking ~/.claude/skills/
 cp -r skills/system-design-skills ~/.claude/skills/
 cp -r skills/debugging-mastery ~/.claude/skills/
 ```
@@ -199,12 +166,6 @@ tawanorg/skills/
 │   ├── README.md                # Human documentation
 │   ├── rules/                   # 22 atomic rules
 │   └── references/              # 10 comprehensive guides
-├── system-design-thinking/      # Architecture decisions
-│   ├── SKILL.md                 # Main skill file
-│   ├── metadata.json            # Version, author info
-│   ├── README.md                # Human documentation
-│   ├── rules/                   # 8 decision heuristics
-│   └── references/              # 6 pattern guides
 ├── system-design-skills/        # System design building blocks
 │   ├── SKILL.md                 # Main skill file
 │   ├── metadata.json            # Version, author info

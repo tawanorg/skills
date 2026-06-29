@@ -16,10 +16,10 @@ metadata:
 
 # System Design Skills
 
-A reference map of the building blocks behind modern systems. Where the
-companion `system-design-thinking` skill teaches *how to reason* about
-architecture, this skill is the *encyclopedia of components* you reason with:
-the protocols, data stores, patterns, and trade-offs you assemble into a design.
+A self-contained reference map of the building blocks behind modern systems —
+the protocols, data stores, patterns, and trade-offs you assemble into a design,
+plus the heuristics for choosing between them. It is the encyclopedia of
+components you design with, paired with rules for applying them.
 
 Topic coverage and structure mirror the categories popularized by ByteByteGo's
 "System Design 101" (used here purely as a topic map — all content is original,
@@ -33,8 +33,9 @@ synthesized, and vendor-neutral).
 2. **Need depth on one component?** Jump straight to the matching reference file.
 3. **Reviewing a design or PR?** Use the **Rules** as a checklist of the
    highest-leverage heuristics.
-4. **Pair with `system-design-thinking`** for the decision-making frameworks
-   (trade-off matrices, ADRs, boundary-finding).
+4. **Choosing between options?** Lean on the **Rules** below and the trade-off
+   tables in `references/software-architecture.md` and
+   `references/scalability-and-distributed-systems.md`.
 
 ## The Building Blocks at a Glance
 

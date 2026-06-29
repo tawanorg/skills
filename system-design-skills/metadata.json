@@ -4,7 +4,7 @@
   "organization": "tawanorg",
   "date": "February 2025",
   "repository": "https://github.com/tawanorg/skills",
-  "abstract": "A practical encyclopedia of system design building blocks: APIs and web protocols, databases and storage, caching and performance, scalability and distributed systems, software architecture, DevOps and CI/CD, security and auth, networking fundamentals, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content is original and vendor-neutral. Companion to the system-design-thinking skill.",
+  "abstract": "A practical encyclopedia of system design building blocks: APIs and web protocols, databases and storage, caching and performance, scalability and distributed systems, software architecture, DevOps and CI/CD, security and auth, networking fundamentals, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content is original and vendor-neutral.",
   "inspiration": "https://github.com/ByteByteGoHq/system-design-101",
   "references": [
     "https://martinfowler.com/architecture",

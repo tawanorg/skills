@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "author": "tawanorg",
+  "organization": "tawanorg",
+  "date": "February 2025",
+  "repository": "https://github.com/tawanorg/skills",
+  "abstract": "A practical encyclopedia of system design building blocks: APIs and web protocols, databases and storage, caching and performance, scalability and distributed systems, software architecture, DevOps and CI/CD, security and auth, networking fundamentals, payments, and AI systems. Topic taxonomy inspired by ByteByteGo's System Design 101; all content is original and vendor-neutral. Companion to the system-design-thinking skill.",
+  "inspiration": "https://github.com/ByteByteGoHq/system-design-101",
+  "references": [
+    "https://martinfowler.com/architecture",
+    "https://12factor.net",
+    "https://microservices.io/patterns",
+    "https://learn.microsoft.com/en-us/azure/architecture/patterns",
+    "https://aws.amazon.com/architecture/well-architected",
+    "https://owasp.org/www-project-top-ten",
+    "https://datatracker.ietf.org/doc/html/rfc6749",
+    "https://www.rfc-editor.org/rfc/rfc9110"
+  ]
+}
